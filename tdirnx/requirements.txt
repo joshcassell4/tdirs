@@ -1,0 +1,4 @@
+Flask
+nanoid
+requests
+bs4

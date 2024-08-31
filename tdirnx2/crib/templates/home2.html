@@ -1,0 +1,19 @@
+{% extends 'test.html' %}
+{% block container %}
+  <div class="top-pad">
+    <h1>test</h1>
+    {% for thing in things %}
+    
+    <div class="top-pad offset-1 col-sm-10">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2>
+            <h1>{{ thing.name }}</a>
+            <small>$ {{ thing.uuid }}</small>
+          </h2>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}

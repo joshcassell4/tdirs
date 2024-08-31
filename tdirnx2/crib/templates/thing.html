@@ -1,0 +1,9 @@
+{% extends 'home.html' %}
+{% block container %}
+  <div class="top-pad">
+    <h4>{{ full_name(product) }}</h4>
+    <h1>{{ thing['name'] }}</h1>
+    <h3><small>{{ thing['uuid'] }}</small></h3>
+    <h5>$ {{ product['price'] }}</h5>
+  </div>
+{% endblock %}
